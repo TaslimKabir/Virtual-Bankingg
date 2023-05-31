@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* header css coding starting here */
+/* navbar css coding starting here */
+.navbar {
+    background-color: #131313;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin: 0rem .8rem;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover, #navbarSupportedContent>ul>li:nth-child(n)>a:active {
+    color: #00BF85;
+}
+
+#navbarSupportedContent>button {
+    background-color: #00BF85;
+    font-weight: 600;
+    padding: 0.5rem 1.4rem;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+#navbarSupportedContent>button:hover{
+    background-color: #ffffff;
+}
+
+/* navbar css coding end here */
+.mid {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mid video {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.mid .center-text {
+    position: relative;
+}
+
+.mid .center-text h2 {
+    font-weight: 700;
+}
+
+.mid .center-text p {
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding-bottom: 1rem;
+}
+
+.mid .center-text a {
+    background-color: #00BF85;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
+
+.mid .center-text a:hover {
+    background-color: #ffffff;
+}
+
+/* header section css coding end here */
+
+/* about section css coding starting here */
+.about {
+    background-color: #131313;
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6 {
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2 {
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.about .text p {
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.6px;
+}
+
+.about .text a {
+    background-color: #00BF85;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
+
+.about .text a:hover {
+    background-color: #ffffff;
+}
+
+/* about section css coding end here */
+
+/* discovery section css coding starting here */
+.discovery {}
+
+.discovery .text h6 {
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.discovery .text h2 {
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.discovery .text p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.6px;
+}
+
+.discovery .text a {
+    background-color: #131313;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
+
+.discovery .text a:hover {
+    color: #00BF7F;
+}
+
+/* discovery section css coding end here */
+
+/* service section css coding starting here */
+.service {
+    background-color: #131313;
+}
+
+.service .heading h2 {
+    font-weight: bold;
+}
+
+.service .one {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 1.5rem 1.5rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.service .one h5 {
+    font-weight: bold;
+}
+
+/* service section css coding end here */
+
+/* sign section css coding starting here */
+.sign .text h6 {
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.sign .text h2 {
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.sign .text p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.6px;
+}
+
+.sign .text a {
+    background-color: #131313;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
+
+.sign .text a:hover {
+    color: #00BF7F;
+}
+
+/* sign section css coding end here */
+
+/* footer section css coding starting here */
+.footer{
+    background: #131313;
+    position: relative;
+}
+
+.footer-cite {
+    border-bottom: 1px solid #373636;
+}
+
+.single-cite i {
+    color: #00BF7F;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+}
+
+.cite-text {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.cite-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.cite-text span {
+    color: #757575;
+    font-size: 15px;
+}
+
+
+.footer-content {
+    position: relative;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.footer-text p {
+    margin-bottom: 14px;
+    font-size: 1rem;
+    color: #7e7e7e;
+    line-height: 28px;
+}
+
+.footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+}
+
+.facebook-bg {
+    background: #3B5998;
+}
+
+.twitter-bg {
+    background: #55ACEE;
+}
+
+.google-bg {
+    background: #DD4B39;
+}
+
+.footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+
+.footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: .3rem;
+    width: 8rem;
+    background: #00BF7F;
+}
+
+.footer-widget ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+.footer-widget ul li a {
+    color: #00BF7F;
+    text-decoration: none;
+}
+
+.footer-widget ul li a:hover {
+    color: #037951;
+    text-decoration: underline;
+}
+
+
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+}
+
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #00BF7F;
+    padding: 13px 20px;
+    border: 1px solid #00BF7F;
+    top: 0;
+}
+
+.subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+}
+
+.copyright-area {
+    background: #202020;
+    padding: 15px 0;
+}
+
+.copyright-area p{
+    margin-top: 1.4rem;
+}
+
+.copyright-area p a{
+    color: #00BF7F;
+    text-decoration: none;
+}
+
+.copyright-area p a:hover {
+    color: #037951;
+    text-decoration: underline;
+}
+
+
+/* footer section css coding end here */
